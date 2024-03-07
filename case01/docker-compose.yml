@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  python-runner:
+    build:
+      context: .
+      network: host
+      dockerfile: Dockerfile
+    image: dtest.nota.ai/nota/people/sunjoo.park/python-runner:v0.1
